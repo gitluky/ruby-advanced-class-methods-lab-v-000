@@ -37,3 +37,6 @@ class Song
   end
 
 end
+
+puts new_song = Song.new_by_name('shittywok')
+puts new_song = Song.create_by_name('shittywok')
