@@ -40,3 +40,4 @@ end
 
 puts new_song = Song.new_by_name('shittywok')
 puts new_song2 = Song.create_by_name('shittywok2')
+Song.all
