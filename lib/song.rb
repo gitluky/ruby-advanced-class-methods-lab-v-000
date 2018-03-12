@@ -40,4 +40,8 @@ class Song
     self.all.detect {|song| song.name =name} ||= Song.new_by_name(name)
   end
 
+  def self.alphabetical
+    self.all.sort_by {|song| song.name}
+
+  end
 end
