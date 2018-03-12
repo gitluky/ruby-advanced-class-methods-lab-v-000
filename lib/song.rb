@@ -41,6 +41,6 @@ end
 new_song = Song.new_by_name('shittywok')
 new_song2 = Song.create_by_name('shittywok2')
 song_list = Song.all
-new_song
-new_song2
+puts new_song.name
+puts new_song2.name
 puts song_list
